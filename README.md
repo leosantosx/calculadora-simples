@@ -5,6 +5,7 @@
 
 
 <h1>Uma calculadora para realizar cálculos simples</h1>
+<img src="https://raw.githubusercontent.com/leosantosx/calculadora-simples/main/img/demo.jpg" alt="demo">
 
 ## 🚀 Tecnologias utilizadas
 
@@ -14,9 +15,6 @@ O projeto foi desenvolvido utilizando as seguintes tecnologias
 - [HTML](https://developer.mozilla.org/pt-BR/docs/Web/HTML)
 - [JavaScript](https://www.javascript.com/)
 
-
-<h2>Demonstração</h2>
-<img src="https://raw.githubusercontent.com/leosantosx/calculadora-simples/main/img/demo.jpg" alt="demo">
 
 ## 📝 Licença
 
