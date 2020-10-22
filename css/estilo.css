@@ -1,0 +1,89 @@
+body{
+    font-family: 'Comfortaa', cursive;
+    background-color: #edf0fc;
+}
+
+header h1{
+    margin: 50px 0;
+    color: #2a58a1;
+    font-size: 2.5em;
+    text-align: center;
+}
+
+main {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    height: 100vh;
+}
+
+main div{
+    display: flex;
+    width: 30%;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+.campo-resultado{
+    margin-bottom: 10px;
+    width: 85%;
+    padding: 20px;
+    border-radius: 10px;
+    border: 3px solid #205a8d;
+    outline: none;
+    font-size: 1.5em;
+    background-color: #f0f4fa;
+}
+
+.campo-resultado::placeholder{
+    color: #1e2d3d;
+    font-weight: 600;
+    font-family: 'Comfortaa', cursive;
+}
+
+main button{
+    font-size: 1.5em;
+    outline: none;
+    border-radius: 5px;
+    border: none;
+    background-color: #334855;
+    color: #fff;
+    height: 70px;
+    width: 100px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 5px;
+    font-weight: 500;
+    transition: background .2s;
+    cursor: pointer;
+}
+
+main .botao-calcula{
+    background-color: #275f8d;
+}
+
+.deleta img{
+    width: 30px;
+    height: 30px;
+}
+
+main button:hover{
+    background-color: #1e2d3d;
+}
+
+main button:active{
+    background-color: #131c24;
+}
+
+
+@media(max-width: 1000px){
+
+    header h1{
+        font-size: 2em;
+    }
+
+    main div{
+        width: 100%;
+    }
+}
